@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-body: "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.font-serif {
+  font-family: var(--font-display);
+}
+
+* {
+  border-color: rgb(226 232 240 / 0.8);
+}
+
+::selection {
+  background: rgba(255, 139, 94, 0.22);
+}
